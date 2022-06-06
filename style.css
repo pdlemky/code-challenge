@@ -32,6 +32,10 @@ a {
 #nav a.active {
     color: black;
     border-bottom: 1px solid black;
+    -webkit-transition: border .5s ease-in;
+    -moz-transition: border .5s ease-in;
+    -o-transition: border .5s ease-in;
+    transition: border .5s ease-in;
 }
 
 #nav a.active:hover {
@@ -45,8 +49,6 @@ a {
     -o-transition: color .5s ease;
     transition: color .5s ease;
 }
-
-
 
 /* Styling for screen widths less than 750px */
 @media screen and (max-width: 750px) {
