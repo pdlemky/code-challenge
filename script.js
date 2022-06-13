@@ -1,7 +1,7 @@
 // Variables
 const header = document.querySelector('#header');
 const nav = document.querySelector('#nav');
-const citiesData = '/navigation.json';
+const citiesData = 'navigation.json';
 const toggle = document.querySelector('.toggle');
 
 // Empty cities array to hold data
